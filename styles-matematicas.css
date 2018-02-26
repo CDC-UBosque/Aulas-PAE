@@ -1,0 +1,697 @@
+/* =============== tipografia ================ */
+	@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+	
+/* =============== contenedor ================ */
+.contenedor-PAE{
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #4e4e4e;
+	line-height: 22px;
+	text-align: justify;
+}
+
+.contenedor-PAE p{
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.contenedor-PAE ol{
+	width: 90%;
+	margin: 1rem auto;
+	padding-left: 3rem;
+}
+
+.contenedor-PAE ul{
+	width: 90%;
+	margin: 1rem auto;
+	padding-left: 3rem;
+}
+
+.contenedor-PAE .img-talleres{
+	display: inline-block;
+	float: left;
+}
+
+.contenedor-PAE .limpiador-float{
+	clear: both;
+	display: block;
+}
+
+.contenedor-PAE .logos{
+	margin-bottom: 2rem;
+}
+
+.contenedor-PAE .separadores{
+	border-bottom: 1px solid #d7d7d7;
+	width: 95%;
+	margin: auto;
+}
+
+#region-main div h2, #region-main .modified{
+	display: none;
+}
+
+/* =============== textos resaltados ================ */
+.contenedor-PAE .resaltados-especiales{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	color: #6E798F;
+}
+
+/* =============== imagenes banners ================ */
+.contenedor-PAE .banners{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+/* =============== cada seccion de informacion 1.1 , 1.2 , etc ================ */
+.contenedor-PAE .secciones{
+	margin-bottom: 1rem
+}
+
+.contenedor-PAE .contactanos{
+	text-align: center;
+}
+
+/* =============== imagenes en lightbox ================ */
+.contenedor-PAE .galeria{
+	margin: 1rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.contenedor-PAE .galeria img{
+	z-index: -1;
+	position: relative;
+	width: 17rem !important;
+	height: auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.contenedor-PAE .galeria a{
+	width: auto;
+	height: auto;
+	z-index: 10;
+	display: block;
+	text-align: center;
+}
+
+.contenedor-PAE .galeria a:hover{
+	content: "";
+	background: rgba(134, 154, 167, 0.7) url(http://www.uelbosque.edu.co/sites/default/files/facultades/ingenieria/svg/hover_icono_galerias.svg) no-repeat center;
+	width: auto;
+	height: auto;
+	z-index: 10;
+	display: block;
+}
+
+/* =============== correccion line height moodle ================ */
+.contenedor-PAE li{
+	line-height: 22px;
+}
+
+/* =============== contenedor de tutores ================ */
+.contenedor-PAE .contenedor-centrar{
+	text-align: center
+}
+
+.contenedor-PAE .contenedor-centrar li{
+	list-style-type: none;
+}
+
+div#menu-inferior div{
+	display: inline;
+}
+
+.contenedor-PAE #menu-inferior.contenedor-centrar li{
+	display: inline;
+}
+
+/* =============== contenedor horario y lugar ================ */
+.contenedor-PAE .descripciones{
+	max-width: 350px;
+	display: inline-block;
+	margin: 1rem;
+	vertical-align: top;
+	text-align: left;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 15px;
+	color: #2e2e2e;
+	line-height: 22px;
+}
+
+/* =============== contenedor horario y lugar 2 ================ */
+.contenedor-PAE .descripciones .informacion{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 15px;
+	color: #2e2e2e;
+	line-height: 22px;
+}
+
+/* =============== hr separadores lineas ================ */
+.contenedor-PAE .separadores-lineas{
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	display: block;
+	margin: 1rem auto;
+}
+
+/* =============== titulares h2 ================ */
+.contenedor-PAE h2{
+	color: #6E798F;
+	width: 90%;
+	margin: 0 auto 1rem;
+	text-align: center;
+	border-bottom: 1px solid #6E798F;
+	padding-bottom: 1rem;
+	display: block !important;
+}
+
+.contenedor-PAE #para-ver h2{
+	color: #6E798F;
+	width: 90%;
+	margin: 0 auto 1rem;
+	text-align: center;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+/* =============== menu principal ================ */
+.contenedor-PAE #menu.contenedor-centrar div{
+	display: inline-block;
+	width: 35%;
+	margin: 1rem 1rem;
+	padding: 1rem 1rem 2rem;
+	vertical-align: top;
+	background: #f5f5f5;
+		-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contenedor-PAE #menu.contenedor-centrar div:hover{
+      box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.2);
+      	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contenedor-PAE #menu.contenedor-centrar h3{
+	color: #6E798F;
+	width: 90%;
+	margin: 0 auto 1rem;
+	text-align: center;
+	border-bottom: 1px solid #6E798F;
+	padding-bottom: 1rem;
+}
+
+.contenedor-PAE #menu.contenedor-centrar p{
+	text-align: left;
+}
+
+.contenedor-PAE #menu.contenedor-centrar a{
+	display: inline-block;
+	width: 35%;
+	margin: 1rem 1rem 0;
+	padding: 1rem;
+	color: #ffffff;
+	vertical-align: top;
+	border-radius: 30px;
+}
+
+.contenedor-PAE #menu.contenedor-centrar .boton-secundario{
+	border: 1px solid #823737;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.4rem 0.5rem;
+	font-weight: bold;
+	margin: 0.5rem 0.3rem;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: 2;
+	width: auto;
+}
+
+.contenedor-PAE #menu.contenedor-centrar .boton-secundario:hover{
+	color: #823737;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.contenedor-PAE #menu.contenedor-centrar .boton-secundario:before{
+	height: 100%;
+	width: 100%;
+	background-color: #F58220;
+	content: '';
+	display: block;
+	left: 0;
+	position: absolute;
+	bottom: 0px;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: -1;
+}
+
+.contenedor-PAE #menu.contenedor-centrar .boton-secundario:hover::before{
+	height:0;
+}
+
+@media (max-width: 960px) {
+	.contenedor-PAE #menu.contenedor-centrar div{
+		width: 85%;
+	}
+}
+
+@media (max-width: 465px) {
+	.contenedor-PAE #menu.contenedor-centrar a{
+		display: inline-block;
+		width: 70%;
+		margin: 1rem;
+		padding: 1rem;
+	}
+	.contenedor-PAE #menu.contenedor-centrar div{
+		display: inline-block;
+		width: 70%;
+		margin: 1rem;
+		padding: 1rem;
+	}
+}
+
+/* =============== menu principal ================ */
+
+.contenedor-PAE .menu-inferior{
+	margin: 3rem 0 0;
+	padding: 1rem 0;
+	vertical-align: top;
+	background: #F7F7F7;
+	border-top: 4px solid #0A58C7;
+}
+
+/* =============== botones universales ================ */
+#region-main .contenedor-PAE .tablas .titular-a{
+	border-bottom: none;
+	border-top: none;
+	font-weight: bold;
+	background: #F7F7F7;
+}
+
+#region-main .contenedor-PAE .boton{
+	border: 1px solid #0A58C7;
+	box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.7rem 1.7rem 0.8rem;
+	font-weight: bold;
+	margin: 1.5rem auto;
+	display: table;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: 2;
+	border-radius: 30px;
+}
+
+#region-main .contenedor-PAE .boton:hover{
+	color: #1374FA !important;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#region-main .contenedor-PAE .boton:before{
+	height: 100%;
+	width: 100%;
+	background: #d0253c;
+	background: #1476ff;/* Old Browsers */
+	background: -moz-linear-gradient(top, #1476ff 0%, #0a59c7 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #1476ff), color-stop(100%, #0a59c7));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, #1476ff 0%, #0a59c7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #1476ff 0%, #0a59c7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #1476ff 0%, #0a59c7 100%); /* IE 10+ */
+	background: linear-gradient(to bottom, #1476ff 0%, #0a59c7 100%);/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1476ff', endColorstr='#0a59c7', GradientType=0 );/* IE6-9 */
+	content: '';
+	display: block;
+	left: 0;
+	position: absolute;
+	bottom: 0px;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: -1;
+	border-radius: 27px;
+}
+
+#region-main .contenedor-PAE .boton:hover::before{
+	height:0;
+}
+
+#region-main .contenedor-PAE .boton-secundario{
+	border: 1px solid #0a59c7;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.4rem 0.5rem;
+	font-weight: bold;
+	margin: 0.5rem 0.3rem;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: 2;
+	border-radius: 30px;
+	box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 9px 8px -7px rgba(0, 0, 0, 0.3);
+}
+
+#region-main .contenedor-PAE .boton-secundario:hover{
+	color: #0a59c7;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+#region-main .contenedor-PAE .boton-secundario:before{
+	height: 100%;
+	width: 100%;
+	background: #0a59c7;/* Old Browsers */
+	background: -moz-linear-gradient(top, #0a59c7 0%, #073d85 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #0a59c7), color-stop(100%, #073d85));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, #0a59c7 0%, #073d85 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0a59c7 0%, #073d85 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0a59c7 0%, #073d85 100%); /* IE 10+ */
+	background: linear-gradient(to bottom, #0a59c7 0%, #073d85 100%);/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a59c7', endColorstr='#073d85', GradientType=0 );/* IE6-9 */
+	content: '';
+	display: block;
+	left: 0;
+	position: absolute;
+	bottom: 0px;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	z-index: -1;
+	border-radius: 27px;
+}
+
+#region-main .contenedor-PAE .boton-secundario:hover::before{
+	height:0;
+}
+
+/* =============== seccion datos del tutor ingenieria ================ */
+.contenedor-PAE .tutor-pae{
+	border: 1px solid #0A58C7;
+	max-width: 350px;
+	display: inline-block;
+	padding: 1rem;
+	margin: 1rem;
+	vertical-align: top;
+}
+
+/* =============== imagen tutor ingenieria ================ */
+.contenedor-PAE .tutor-pae .contenedor-imagen{
+	display: block;
+	width: 8.5rem;
+	height: 8.5rem;
+	overflow: hidden;
+	border-radius:100%;
+	margin: auto;
+}
+
+.contenedor-PAE .tutor-pae img{
+	width: auto;
+	margin: -1rem;
+}
+
+/* =============== nombre tutor ingenieria ================ */
+.contenedor-PAE .tutor-pae #nombre{
+	display: block;
+	margin: 0.5rem auto;
+	text-align: center;
+}
+
+/* =============== descripcion tutor - que hace ¿? ingenieria ================ */
+.contenedor-PAE .tutor-pae #descripcion{
+	display: block;
+	margin: 0.5rem auto;
+	text-align: center;
+}
+
+/* =============== estilos descripciones ingenieria ================ */
+.contenedor-PAE .descripciones td{
+	border: 1px solid #0A58C7;
+	max-width: 350px;
+	margin: 1rem;
+	vertical-align: top;
+	padding: 1rem;
+}
+
+.contenedor-PAE .descripciones #descripcion{
+	border-right: none;
+}
+
+.contenedor-PAE .descripciones #horario{
+	border-bottom: 1px solid #F58220;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.contenedor-PAE .descripciones #entre-tablas-superior{
+	border-bottom: none;
+	border-top: none;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.contenedor-PAE .descripciones #entre-tablas-inferior{
+	border-top: none;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0rem;
+}
+
+.contenedor-PAE .descripciones #entre-tablas-inferior a{
+	color: #0A58C7;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.contenedor-PAE .descripciones #entre-tablas-inferior a:hover{
+	text-decoration: underline;
+}
+
+.contenedor-PAE .tabla-interna a{
+	color: #0A58C7 !important;
+	font-weight: bolder !important;
+	text-decoration: none !important;
+}
+
+.contenedor-PAE .tabla-interna a:hover{
+	text-decoration: underline !important;
+}
+
+.contenedor-PAE .descripciones #lugar{
+	border: none;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* =============== docentes tutores academicos ingenieria ================ */
+.contenedor-PAE .docentes-academicos{
+	border: 1px solid #F58220;
+	width: 90%;
+	margin: 1rem auto;
+	vertical-align: top;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 15px;
+	color: #2e2e2e;
+	line-height: 22px;
+}
+
+.contenedor-PAE .docentes-academicos #cabezote{
+	background: #F58220;
+	width: auto;
+	vertical-align: top;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 22px;
+	font-weight: bold;
+	padding: 0.5rem;
+}
+
+.contenedor-PAE .docentes-academicos #mi-programa{
+	border-right: 1px solid #F58220;
+	border-bottom: 1px solid #F58220;
+	vertical-align: top;
+	text-align: center;
+	line-height: 22px;
+	padding: 0.5rem;
+}
+
+.contenedor-PAE .docentes-academicos #otros-programas{
+	border-bottom: 1px solid #F58220;
+	vertical-align: top;
+	text-align: center;
+	line-height: 22px;
+	padding: 0.5rem;
+}
+
+.contenedor-PAE .docentes-academicos .nombres{
+	border-right: 1px solid #F58220;
+	vertical-align: top;
+	text-align: center;
+	line-height: 22px;
+	padding: 0.5rem;
+}
+
+.contenedor-PAE .docentes-academicos .nombres:last-child{
+	border-right: none;
+}
+
+/* =============== tablas ================ */	
+.contenedor-PAE .tablas{
+	width: 90%;
+	margin: auto auto 1rem;
+}
+
+.contenedor-PAE .tablas td{
+	border: 1px solid #0B59C8;
+	padding: 1rem;
+	vertical-align: top;
+}
+
+.contenedor-PAE .tablas #cabezote{
+	background: #0B59C8;
+	width: auto;
+	vertical-align: top;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 22px;
+	font-weight: bold;
+	padding: 0.5rem;
+}
+
+.contenedor-PAE .tablas .tabla-interna td{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+}
+
+.contenedor-PAE .tablas .tabla-interna tr:first-child td{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	padding-top: 0;
+}
+
+.contenedor-PAE .tablas .tabla-interna tr:last-child td{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+/* =============== formularios ================ */
+.contenedor-PAE.formularios{
+	margin: auto;
+	max-width: 1200px;
+}
+
+.contenedor-PAE.formularios .separadores{
+	border-bottom: 1px solid #ededed;
+}
+
+/* =============== videos youtube ================ */
+.contenedor-PAE .videos{
+	margin: 2rem auto;
+	max-width: 560px;
+	width: 100%;
+	display: block;
+}
+
+.contenedor-PAE .contenedor-tutores{
+	margin: auto;
+	text-align: center;
+}
