@@ -1,0 +1,3 @@
+//Volver a presentacion
+$('#txt-generalidades').html('<p>Apreciad@ Estudiante,</p><p>La Universidad El Bosque quiere establecer contigo un permanente contacto, acompañamiento y apoyo en todas tus dimensiones.
+Para este acompañamiento, Éxito Estudiantil en articulación con tu programa académico ha desarrollado ésta aula virtual,  a través de la cual podrás acceder a los apoyos, ser orientado académicamente, y acceder a material y documentos que apoyarán tu proceso académico.</p><p class="resaltados-especiales">¡Bienvenid@!</p>');
